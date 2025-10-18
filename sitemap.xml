@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/index.html</loc></url>
-  <url><loc>https://example.com/first-nations.html</loc></url>
-  <url><loc>https://example.com/colonial.html</loc></url>
-  <url><loc>https://example.com/federation.html</loc></url>
-  <url><loc>https://example.com/nation-building.html</loc></url>
-  <url><loc>https://example.com/postwar-modern.html</loc></url>
-  <url><loc>https://example.com/reconciliation.html</loc></url>
-  <url><loc>https://example.com/timeline.html</loc></url>
-  <url><loc>https://example.com/about.html</loc></url>
-  <url><loc>https://example.com/sources.html</loc></url>
-  <url><loc>https://example.com/privacy.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/index.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/first-nations.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/colonial.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/federation.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/nation-building.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/postwar-modern.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/reconciliation.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/timeline.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/about.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/sources.html</loc></url>
+  <url><loc>https://neoaus.github.io/history/privacy.html</loc></url>
 </urlset>

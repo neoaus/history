@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeoAus — Explore Australia’s Story</title>
+  <meta name="description" content="Learn about Australia's remarkable history — from ancient custodianship and colonisation to federation, reform and reconciliation.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/popup.css">
+    <script src="assets/js/popup.js" defer></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        PopupLander(); // only for lander.html
+    });
+    </script> 
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="NeoAus logo" height="32"><span>NeoAus</span></a>
+      <div class="nav-ctrls">
+        <button class="theme-toggle" aria-label="Toggle theme">🌓</button>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      </div>
+      <nav id="nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="first-nations.html">First Nations</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="sources.html">Sources</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="container" style="grid-template-columns:1fr; text-align:center; padding:64px 20px;">
+        <div class="prose">
+          <span class="kicker">Discover Australia’s Journey</span>
+          <h1>From ancient lands to a modern nation</h1>
+          <p class="lead">NeoAus offers a clear, reader-friendly view of how Australia’s story unfolded — from deep-time custodianship to federation, reform and reconciliation.</p>
+          <p><a href="timeline.html" class="badge">Explore the Timeline</a> <a href="first-nations.html" class="badge">Start Reading</a></p>
+        </div>
+        <div class="placeholder" aria-hidden="true" style="margin-top:32px;"></div>
+      </div>
+    </section>
+
+    <section class="container prose reveal" style="padding:40px 18px 20px">
+      <h2>Why NeoAus?</h2>
+      <p>Every page on NeoAus is written in clear language for students, readers and visitors who want to understand the past without jargon. Each era section summarises key developments, landmark moments and enduring questions about identity and nationhood.</p>
+      <ul>
+        <li><strong>Readable content</strong> — human-written summaries without ads or distractions.</li>
+        <li><strong>Trustworthy structure</strong> — cross-checked with major museums and archives.</li>
+        <li><strong>Accessible design</strong> — light/dark modes, progress bar and mobile-first layout.</li>
+      </ul>
+      <p>NeoAus is entirely educational and independent — created for those who value history, context and clarity.</p>
+    </section>
+
+    <section class="container prose reveal" style="padding:20px 18px 60px">
+      <h2>What you’ll find</h2>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;">
+        <div class="card"><h3>First Nations</h3><p>Ancient custodianship, languages and connection to Country — the world’s oldest continuing cultures.</p></div>
+        <div class="card"><h3>Colonial Era</h3><p>Convict foundations, gold rushes, expansion and the path toward responsible government.</p></div>
+        <div class="card"><h3>Federation</h3><p>1901: six colonies unite under one Constitution, forming the Commonwealth of Australia.</p></div>
+        <div class="card"><h3>Modern Australia</h3><p>Migration, reform and the continuing journey toward recognition and equality.</p></div>
+      </div>
+    </section>
+
+    <section class="container prose reveal" style="text-align:center; padding:40px 20px 60px;">
+      <h2>Begin your exploration</h2>
+      <p>Follow the full timeline, read the key moments, or start from the very beginning.</p>
+      <p><a href="index.html" class="badge">Go to Home</a> <a href="timeline.html" class="badge">Open Timeline</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container grid">
+      <div>
+        <strong>NeoAus</strong>
+        <p>Independent educational overview of Australia’s history. Updated 2025.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="timeline.html">Interactive Timeline</a></li>
+          <li><a href="sources.html">Reference Sources</a></li>
+          <li><a href="about.html">About &amp; Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Utility</h4>
+        <ul>
+          <li><a href="sitemap.xml">Sitemap</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">© 2025 NeoAus. Educational content. Not affiliated with any government.</p>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
