@@ -1,7 +1,7 @@
 // Minimal split: same behavior, two separate functions to call per page
 (function () {
   // Use relative path so it works in subfolders too
-  const REDIRECT = "privacy.html";
+  const REDIRECT = "index.html";
  
   function buildPopup() {
     // prevent double render
@@ -39,7 +39,7 @@
     // Your custom behavior: Yes = just close, No = go to privacy
     bd.querySelector("#age-yes").addEventListener("click", close);
     bd.querySelector("#age-no").addEventListener("click", () => {
-      window.location.href = "privacy.html";
+      window.location.href = "index.html";
     });
   };
  
